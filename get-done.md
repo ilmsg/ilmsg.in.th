@@ -1,4 +1,4 @@
-![](images/get_done.jpg)
+![](public/get_done.jpg)
 
 **1. เทคนิค Pomodoro (Pomodoro Technique)**
 
