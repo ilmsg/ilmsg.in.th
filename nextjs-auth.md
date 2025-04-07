@@ -1,5 +1,7 @@
 https://www.youtube.com/watch?v=w2h54xz6Ndw&pp=ygUVbmV4dCBqcyBhdXRoIHR1dG9yaWFs
 
+https://github.com/gitdagray/next-auth-intro
+
 บทเรียนอย่างละเอียดเกี่ยวกับ NextAuth.js โดยอิงตามเนื้อหาวิดีโอของ Dave Gray ซึ่งเน้นการใช้งานกับ Next.js App Router
 
 **บทเรียน NextAuth.js: การยืนยันตัวตนใน Next.js App Router (ตามวิดีโอ Dave Gray)**
