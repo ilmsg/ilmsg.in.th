@@ -1,4 +1,4 @@
-แน่นอนครับ! มาสร้างโปรเจกต์ Vite + React + TypeScript สำหรับทำ CRUD TodoList ที่เชื่อมต่อกับ Firebase Firestore กันทีละขั้นตอน
+มาสร้างโปรเจกต์ Vite + React + TypeScript สำหรับทำ CRUD TodoList ที่เชื่อมต่อกับ Firebase Firestore กันทีละขั้นตอน
 
 **ภาพรวมขั้นตอน:**
 
@@ -58,6 +58,7 @@ npm install
 *   **ตั้งค่า Rules (สำคัญมาก):**
     *   ไปที่แท็บ **Rules** ในหน้า Firestore Database
     *   **สำหรับช่วงพัฒนา (ไม่ปลอดภัยสำหรับ Production):** คุณอาจจะตั้งค่าให้อ่านเขียนได้ทั้งหมดก่อน เพื่อให้ทดสอบง่าย (เปลี่ยน `false` เป็น `true`)
+    
         ```rules
         rules_version = '2';
         service cloud.firestore {
@@ -69,6 +70,7 @@ npm install
           }
         }
         ```
+
     *   **สำหรับ Production (แนะนำ):** ควรตั้งค่าให้เฉพาะผู้ใช้ที่ล็อกอินแล้วเท่านั้นที่เขียนได้ และอาจจะจำกัดการอ่านเขียนเฉพาะข้อมูลของตัวเอง (ต้องใช้ Firebase Authentication ร่วมด้วย) ตัวอย่างเบื้องต้นสำหรับผู้ใช้ที่ล็อกอินแล้ว:
         ```rules
         rules_version = '2';
